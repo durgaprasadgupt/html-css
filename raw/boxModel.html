@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rebeccapurple;
+        margin: 0;
+        color: white;
+        font-size: 1rem;
+    }
+
+    .one {
+        background-color: lightgreen;
+        padding: 1rem;
+    }
+    .two {
+        background-color: lightpink;
+        height: 5rem;
+        width: 5rem;
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+    .three {
+        background-color: lightblue;
+        height: 5rem;
+        width: 5rem;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        border:1px solid red;
+        box-sizing: border-box;   /* by default box-sizing me content ko whi size milta hai jo hm height and width dete hain  and jo hm extra padding dete hain wo hmaare height and width me se na lekr wh extra padding add ho jata hai jisse hme size bdi lgti hai but when we set box-sizing as border-box then hm jo v padding or margin set krte wo hmaare height and width me hi hota hai.*/
+        margin-left:2rem;
+        /* margin: 0 auto; */
+    } 
+</style>
+
+<body>
+    <!-- jb predefined height and width nii dete hain -->
+    <div class="one">Hello1</div>
+   <!-- jb height and width dete hain but box-sizing default hain -->
+    <div class="two">Hello2</div>
+    <!-- jb box sizing ko border box set kr diya  -->
+    <div class="three">Hello3</div>
+</body>
+
+</html>

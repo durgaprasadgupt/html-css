@@ -1,0 +1,55 @@
+/* use google-fonts for your fonts  here you will have to copy two things 1st is css and then 2nd. font-family you will add your css upside your real css file and use font-family in your css file  */
+/* flatuicoloricons check this */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-color: #15314b;
+}
+li{
+    list-style: none;
+}
+.input-container{
+    height:15vh;
+}
+.input-box{
+    display: block;
+    height:80%;
+    width:40vw;
+    margin:0 auto;
+    margin-top: 1rem;
+    font-size: 1.5rem;;
+    text-align: center;
+}
+.main-container {
+    /* border: 2px solid green; */
+    padding-top:2rem;
+    font-family: 'Roboto Mono', monospace;
+    color:white;
+    /* text center  */
+    text-align: center;
+}
+.task-list {
+    padding-left: 0;
+}
+.action{
+    font-size: 1.5rem;
+    background-color: green;
+    width:60%;
+    margin: 0 auto;
+}
+.task{
+    height:2rem;
+    font-size: 1.1rem;
+    width:60%;
+    background-color:#2f679c ;
+    margin: 0 auto;
+    margin-bottom: 0.5rem; /*es line ki wajah se tasks ke bich me thoda sa space aa gya hai */
+}
+/* media queries -> screen size  */
+@media only screen and (max-width: 800px) {
+    .input-box{
+        width:60vw;
+    }
+  }
